@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    background-image: url(game.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 250px;
+    width: 100%;
+
+}
+
+.navigate{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.header-buttons{
+    background-color:lightgrey ;
+    color: gray;
+    transition-duration: 1s;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.header-text{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color:rgb(67, 117, 9) ;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.play{
+    background-color:rgb(43, 36, 148) ;
+    color:white;
+    transition-duration: 1s;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.play:hover{
+    background-color:rgb(233, 130, 89);
+    color: white;
+}
+
+
+.header-buttons:hover{
+    background-color:lightskyblue;
+    color: white;
+}
+
+.submit{
+    background-color:lightskyblue; 
+    color: white;
+    transition-duration: 1s;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.submit:hover{
+    background-color:lightsalmon;
+    color: white;
+}
+.subsubheading{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+
+}
+
+.main-content{
+    display: flex;
+    height: 420px;
+    padding: 20px;
+    justify-content: center;
+
+}
+.middle-item{
+    background-color: rgb(180, 30, 30);
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.left-item{
+    background-color: rgb(100, 209, 12);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.main-content div{
+    width: 22%;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.footer-text{
+    color: white;
+    width: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+
+}
+.sign-up{
+    color: rgb(245, 245, 245);
+    padding-left: 40px;
+
+}
+.sign-up[_text]{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 0;
+}
